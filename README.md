@@ -4,7 +4,7 @@ A 5×3, 10-line video slot built with **PixiJS 8**, **TypeScript**, **GSAP** and
 The game client is fully separated from the game math: the client only renders results
 returned by a (mock) server, the same way real slots talk to an RGS.
 
-**Live demo:** _add link here_
+**Live demo:** https://apchnk.github.io/slot-demo/
 
 ## Run it
 
@@ -14,6 +14,7 @@ npm run dev        # http://localhost:5173 (also reachable from your phone on th
 npm run build      # typecheck + production build into dist/
 npm run preview    # serve the production build locally
 npm run rtp        # simulate 1,000,000 spins and print RTP / hit rate
+npm run deploy     # build and publish dist/ to GitHub Pages (gh-pages branch)
 ```
 
 Requires Node.js 20+. Press **Space** or click **SPIN**.
